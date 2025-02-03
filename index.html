@@ -2,12 +2,17 @@
 <html>
 <head>
 <style>
+body {margin:0;}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 li {
@@ -18,7 +23,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 18px 19px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
@@ -34,13 +39,16 @@ li a:hover:not(.active) {
 <body>
 
 <ul>
-  <li><a href="#home">Home</a></li>
+  <li><a class="active" href="#home">Home</a></li>
   <li><a href="#mandatory parts">mandatory parts</a></li>
   <li><a href="#add ons">add ons</a></li>
-  <li style="float:right"><a class="active" href="#other">other</a></li>
+  <li><a href="#other">other</a></li>
 </ul>
+
+<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
+  <h1>wellcome to a guide on pc parts</h1>
+
+</div>
 
 </body>
 </html>
-
-
