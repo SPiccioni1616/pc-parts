@@ -25,3 +25,6 @@ background-color: #111;
 .active {
 background-color: hsla(158, 100%, 50%, 0.705);
 }
+.reset {
+    all:initial;
+}
